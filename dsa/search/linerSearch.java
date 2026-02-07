@@ -1,4 +1,4 @@
-package DSA.Search;
+package dsa.search;
 
 import java.util.ArrayList;
 

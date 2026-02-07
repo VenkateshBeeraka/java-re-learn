@@ -1,4 +1,4 @@
-package DSA.Search;
+package dsa.search;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 // It works by repeatedly dividing the search interval in half
 public class BinarySearch {
 
-    public static int BinarySearchMethod(int[] arr1, int x) {
+    public static int binarySearchMethod(int[] arr1, int x) {
         int low = 0;
         int high = arr1.length - 1;
         while (arr1.length >= 0) {
@@ -33,6 +33,6 @@ public class BinarySearch {
         Arrays.sort(arr1);
         System.out.println(Arrays.toString(arr1));
         System.out.println("length of that array : " + arr1.length);
-        System.out.println(BinarySearchMethod(arr1, 9));
+        System.out.println(binarySearchMethod(arr1, 9));
     }
 }

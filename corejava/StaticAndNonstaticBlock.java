@@ -1,6 +1,6 @@
-package Core_java;
+package corejava;
 
-public class staticAndNonstaticBlock {
+public class StaticAndNonstaticBlock {
 
     static{
         System.out.println("Static block excuted during class loading and before main method");
@@ -10,13 +10,13 @@ public class staticAndNonstaticBlock {
         System.out.println("Non static block executed after the every object creation and before the constructer execute");
     }
 
-    staticAndNonstaticBlock(){
+    StaticAndNonstaticBlock(){
         System.out.println("Constructor............");
     }
     public static void main(String[] args) {
         System.out.println("Main method started....");
-        staticAndNonstaticBlock static1 = new staticAndNonstaticBlock();
-        staticAndNonstaticBlock static2 = new staticAndNonstaticBlock();
+        StaticAndNonstaticBlock static1 = new StaticAndNonstaticBlock();
+        StaticAndNonstaticBlock static2 = new StaticAndNonstaticBlock();
     }
     
 }

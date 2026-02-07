@@ -1,4 +1,4 @@
-package oops.objects;
+package corejava.oops.objects;
 
 public class SampleObject {
     
