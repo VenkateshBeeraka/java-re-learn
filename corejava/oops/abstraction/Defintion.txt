@@ -1,0 +1,12 @@
+Definition:
+
+Abstraction is an Object-Oriented Programming principle that provides a way to hide the complex implementation details from the user 
+and expose only the necessary features through abstract classes and interfaces. 
+It allows us to create a simplified view of an object by defining what operations can be performed without specifying 
+how those operations are implemented.
+
+Q: What is the difference between abstraction and encapsulation?
+Answer: Abstraction and encapsulation are related but different:
+Abstraction focuses on hiding complexity - it's about WHAT an object does. We hide implementation details using abstract classes and interfaces.
+Encapsulation focuses on hiding data - it's about HOW data is protected. We hide internal state using private fields and provide controlled access through public methods.
+Example: A BankAccount class uses abstraction when it provides a withdraw() method without showing the complex validation logic, and uses encapsulation when it keeps the balance field private with getter/setter methods.
