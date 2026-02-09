@@ -19,6 +19,7 @@ public interface Vehicle {
         System.out.println("Vehicle is being serviced");
     }
 
+    //This method is a helper method for the service() default method. It is private and cannot be accessed outside the interface.
     private void checkFuel(){
         System.out.println("Checking fuel level before servicing");
     }
