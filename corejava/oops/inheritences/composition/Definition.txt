@@ -1,0 +1,22 @@
+Composition is an object-oriented design technique where a class is composed of one or more objects of other classes, 
+creating a HAS-A relationship. Unlike inheritance (IS-A), composition promotes loose coupling, flexibility, 
+and follows the principle of 'favor composition over inheritance.' 
+The lifetime of the contained object is managed by the container object.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+When to Use Composition vs Inheritance:-
+
+Use Inheritance When:
+True IS-A relationship exists
+You want to use polymorphism
+Base class won't change frequently
+Example: Dog IS-A Animal
+
+Use Composition When:
+HAS-A or PART-OF relationship exists
+You need flexibility to change behavior
+You want loose coupling
+You need multiple behaviors from different classes
+Example: Car HAS-A Engine

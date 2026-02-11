@@ -1,0 +1,51 @@
+Inheritance in Java is a core OOP concept that allows a class to acquire properties and behaviors from another class. 
+It helps in creating a new class from an existing class, promoting code reusability and better organization.
+A subclass can reuse the fields and methods of the parent class without rewriting the code
+A subclass can add its own fields and methods or modify existing ones to extend functionality.
+
+------------------------------------------------
+
+Types:
+1. Single Inheritance:
+Parent
+  ↓
+Child
+
+2. Multilevel Inheritance:
+GrandParent
+    ↓
+  Parent
+    ↓
+  Child
+
+3. Hierarchical Inheritance
+      Parent
+    /   |   \
+Child1 Child2 Child3
+
+4. Multiple Inheritance (NOT Supported for Classes)
+Parent1   Parent2
+    \      /
+     Child
+
+5. Hybrid Inheritance (NOT Supported for Classes)
+      A
+     / \
+    B   C
+     \ /
+      D
+
+-----------------------------------------------------------------------------
+
+Advantages of Inheritance:
+Code Reusability - Reuse existing code without rewriting
+Method Overriding - Runtime polymorphism
+Extensibility - Easy to add new features
+Data Hiding - Using protected access modifier
+Reduces Code Redundancy - Common code in parent class
+
+Disadvantages of Inheritance:
+Tight Coupling - Parent and child are tightly coupled
+Increased Complexity - Deep inheritance hierarchies hard to maintain
+Fragile Base Class Problem - Changes in parent affect all children
+Not Always Natural - Sometimes composition is better
