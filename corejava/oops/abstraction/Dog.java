@@ -1,4 +1,4 @@
-package corejava.oops.abstraction.abstractexample;
+package corejava.oops.abstraction;
 
 public class Dog extends Animal {
 

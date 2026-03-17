@@ -1,4 +1,4 @@
-package corejava.oops.abstraction.Interface;
+package corejava.oops.Interface;
 
 public class Bike implements Vehicle {
 

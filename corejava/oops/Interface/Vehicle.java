@@ -1,4 +1,4 @@
-package corejava.oops.abstraction.Interface;
+package corejava.oops.Interface;
 
 //An interface is a completely abstract blueprint that contains only method signatures (until Java 8).
 //Before Java 8: Only abstract methods and Only public static final variables
